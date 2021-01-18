@@ -1,0 +1,12 @@
+{
+  "name": "github-app",
+  "displayName": "github-app",
+  "expo": {
+    "name": "github-app",
+    "slug": "github-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
