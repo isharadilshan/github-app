@@ -19,6 +19,7 @@ export const ModuleEvents = {
         const apiResponse = await axios({
           method: 'get',
           url: `https://api.github.com/users/${username}`,
+          // url: `https://api.github.com/search/repositories/${username}`,
           responseType: 'json'
         });
         await dispatch(setFetchUser(apiResponse.data));

@@ -15,6 +15,7 @@ export const BottomNavigator = () => {
           borderTopWidth: 0,
           backgroundColor: 'white',
         },
+        keyboardHidesTabBar: true,
       }}>
       <Tab.Screen
         name="Profile"
